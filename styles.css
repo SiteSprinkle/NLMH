@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dosis:wght@200..800&family=DynaPuff:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=M+PLUS+Rounded+1c&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nabla&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Parkinsans:wght@300..800&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap');
+
+.comic-neue-light {
+  font-family: "Comic Neue", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  background: linear-gradient(#6190E8, #A7BFE8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Comic Neue;
+  font-weight: 600;
+  padding-right: 10px;
+  float: right;
+}
+.active{
+  background: linear-gradient(#44A08D, #093637);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-family: Comic Neue;
+}
+
+.active:hover{
+  background: linear-gradient(#44A08D, #093637);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a:hover{
+  background: linear-gradient(#4568DC, #B06AB3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body{
+  background-color: rgb(255, 253, 253);
+}
+
+.circle{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: #44A08D;
+  position: absolute;
+  right: -20%;
+  top: 40px;
+}
+.price{
+  font-family: monospace;
+  font-size: larger;
+  animation: price 10s ease-in-out infinite;
+  margin-left: 10px;
+}
+
+h1{
+  font-family: Comic Neue;
+  font-weight: 700;
+}
+@keyframes price{
+  0%{color: #a83232}
+  10%{color: #a86b32}
+  20%{color: #a8a432}
+  30%{color: #75a832}
+  40%{color: #32a850}
+  50%{color: #32a87b}
+  60%{color: #32a6a8}
+  70%{color: #3264a8}
+  80%{color: #4c32a8}
+  90%{color: #a832a4}
+  100%{color: #a83246}
+}
+
+.cards{
+ height: 200px;
+ width: 175px;
+ background-color: rgb(255, 255, 255);
+ margin-left: 10px;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: 1px;
+ box-shadow: 1px 1px 5px;
+}
+h4{
+padding-left: 37px;
+margin: 0%;
+}
+
+h5{
+  margin: 0%;
+}
+.upco{
+width: 100px;
+height:100px;
+padding-left:35px;
+padding-top: 5px;
+padding-bottom: 0%;
+}
+
+.In-stock{
+  color: green;
+  margin-top: 4px;
+  margin-left: 10px;
+}
